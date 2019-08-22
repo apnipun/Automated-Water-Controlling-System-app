@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="20"
+        android:title="@string/pref_notify_me"
+        android:dialogTitle="@string/pref_notify_me_title"
+        android:entries="@array/pref_notify_me_entries"
+        android:entryValues="@array/pref_notify_me_values"
+        android:key="pref_notify_me"
+        android:summary="@string/pref_notify_me_summery" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:title="@string/pref_notify_tank_full"
+        android:summary="@string/pref_notify_tank_full_summery"
+        android:key="pref_tank_full"
+        />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:title="@string/pref_notify_tank_empty"
+        android:summary="@string/pref_notify_tank_empty_summery"
+        android:key="pref_tank_empty"
+        />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:title="@string/pref_notify_on_well_empty"
+        android:summary="@string/pref_notify_on_well_empty_summery"
+        android:key="pref_notify_on_well_empty"/>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:title="@string/pref_notify_on_cleaning"
+        android:summary="@string/pref_notify_on_cleaning_summery"
+        android:key="pref_notify_on_cleaning_completed"/>
+
+</PreferenceScreen>

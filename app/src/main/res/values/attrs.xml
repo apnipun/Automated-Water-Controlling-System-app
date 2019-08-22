@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- declare style for WaterTankBar -->
+
+    <declare-styleable name="WaterTankBar">
+        <attr name="bottomColor" format="color"/>
+        <attr name="topColor" format="color"/>
+        <attr name="tankBackgroundColor" format="color"/>
+        <attr name="progress" format="integer"/>
+    </declare-styleable>
+
+</resources>

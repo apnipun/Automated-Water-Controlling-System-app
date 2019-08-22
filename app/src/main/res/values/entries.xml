@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_refresh_interval_values">
+        <item>2,s</item>
+        <item>5,s</item>
+        <item>10,s</item>
+    </string-array>
+
+    <string-array name="pref_auto_clean_values">
+        <item>1,d</item>
+        <item>1,w</item>
+        <item>2,w</item>
+        <item>1,mo</item>
+        <item>6,mo</item>
+        <item>1,y</item>
+        <item>2,y</item>
+    </string-array>
+
+    <string-array name="pref_notify_me_values">
+        <item>80</item>
+        <item>60</item>
+        <item>20</item>
+        <item>-1</item> <!-- never -->
+    </string-array>
+
+
+</resources>

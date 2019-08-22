@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.vortex.vortex.fragments.ControlFragment"
+    android:scrollbars="vertical"
+    android:orientation="vertical"
+    android:weightSum="1"
+    app:layout_scrollFlags="scroll">
+
+
+    <Switch
+        android:text="@string/turn_on_mortor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_motor"
+        android:padding="10dp" />
+
+
+
+    <Switch
+        android:text="@string/text_manual_clean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_manual_clean"
+        android:padding="10dp"/>
+
+    <com.app.vortex.vortex.view.WaterTankBar
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="125dp"
+        android:id="@+id/water_tank_control"
+        />
+
+</LinearLayout>

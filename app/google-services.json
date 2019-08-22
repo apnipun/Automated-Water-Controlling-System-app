@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "464401086915",
+    "firebase_url": "https://vortex-f344c.firebaseio.com",
+    "project_id": "vortex-f344c",
+    "storage_bucket": "vortex-f344c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464401086915:android:7c809664942612aa",
+        "android_client_info": {
+          "package_name": "com.app.vortex.vortex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464401086915-vmakif5326s38rlaii61jrqskh8usjf6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.vortex.vortex",
+            "certificate_hash": "A5136807D1848A1549AC0A76FBBA381645864203"
+          }
+        },
+        {
+          "client_id": "464401086915-69lfq2je7u0oacaofefkuah8bltqk480.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCwC8_ari3QWJFnlIa97p3wPj8dnRaQLk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464401086915-69lfq2je7u0oacaofefkuah8bltqk480.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_system_settings"
+        android:key="pref_system_settings">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:title="@string/pref_auto_fill_tank"
+            android:summary="@string/pref_auto_fill_tank_summery"
+            android:key="pref_auto_fill_tank"/>
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:title="@string/pref_autoclean"
+            android:summary="@string/pref_autoclean_summery"
+            android:key="pref_autoclean" />
+
+        <ListPreference
+            android:title="@string/pref_auto_clean_interval"
+            android:summary="@string/pref_auto_clean_summery"
+            android:key="pref_auto_clean_update_interval"
+            android:entries="@array/pref_auto_clean_interval_entries"
+            android:entryValues="@array/pref_auto_clean_values"
+            android:defaultValue="@string/pref_auto_clean_deafult"
+            android:dialogTitle="@string/pref_auto_clean_interval_dialog_title"/>
+
+        <ListPreference
+            android:title="@string/pref_refresh_interval"
+            android:summary="@string/pref_sum_refresh_interval"
+            android:key="pref_refresh_interval"
+            android:entries="@array/pref_refresh_interval_entries"
+            android:entryValues="@array/pref_refresh_interval_values"
+            android:defaultValue="@string/pref_default_refresh_interval"
+            android:dialogTitle="@string/pref_refresh_interval_dialog_title"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_notifications"
+        android:key="pref_notification_settings">
+
+        <SwitchPreference
+            android:title="@string/pref_notification"
+            android:key="pref_notification_on"
+            android:summary="@string/pref_notifications_summery"
+            android:defaultValue="true"/>
+
+        <SwitchPreference
+            android:title="@string/pref_vibration"
+            android:key="pref_vibrate"
+            android:dependency="pref_notification_on"
+            android:defaultValue="true"/>
+
+        <SwitchPreference
+            android:title="@string/pref_notif_led"
+            android:key="pref_phone_led"
+            android:dependency="pref_notification_on"
+            android:defaultValue="true"/>
+
+        <Preference
+            android:title="@string/pref_notify_on"
+            android:summary="@string/pref_notify_on_summery">
+            <intent android:action="com.vortex.notifyPreference"/>
+        </Preference>
+
+        <RingtonePreference
+            android:title="@string/pref_sound"
+            android:summary="@string/pref_sound_summery"
+            android:ringtoneType="notification"
+            android:key="pref_tone"
+            android:showDefault="true"/>
+        
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="About"
+        >
+        <Preference
+            android:title="About"
+            android:summary="About the vortex">
+            <intent android:action="com.vortex.about"/>
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

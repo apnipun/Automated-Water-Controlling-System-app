@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Vortex</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="navigation_drawer_items">
+        <item>Home</item>
+        <item>Control</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+
+    <string name="turn_on_mortor">Turn on motor</string>
+    <string name="text_manual_clean">Clean Tank</string>
+    <string name="text_control_tap_line">Turn on tap line</string>
+
+    <string name="pref_autoclean">Auto clean</string>
+    <string name="pref_autoclean_summery">The system will automatically clean itself after regular interval</string>
+    <string name="pref_system_settings">System</string>
+
+
+    <string name="text_notify_on">Notify on</string>
+    <string name="text_notify_tank_full">On tank is full</string>
+    <string name="text_notify_tank_empty">On tank is empty</string>
+    <string name="text_notify_tank_cleaned">On tank cleaned</string>
+
+    <string-array name="pref_refresh_interval_entries">
+        <item>2 Seconds</item>
+        <item>5 Seconds</item>
+        <item>10 Seconds</item>
+    </string-array>
+
+    <string name="pref_refresh_interval">Refresh interval</string>
+    <string name="pref_sum_refresh_interval">Select an refresh interval for app</string>
+    <string name="pref_refresh_interval_dialog_title">Select refresh interval</string>
+    <string name="pref_default_refresh_interval">2,s</string>
+
+    <string name="pref_auto_clean_interval">Auto clean interval</string>
+    <string name="pref_auto_clean_summery">System will auto clean itself after this time period</string>
+    <string name="pref_auto_clean_interval_dialog_title">Select auto clean period</string>
+    <string name="pref_auto_clean_deafult">1,mo</string>
+    <string-array name="pref_auto_clean_interval_entries">
+        <item>1 Day</item>
+        <item>1 Week</item>
+        <item>2 Weeks</item>
+        <item>1 Month</item>
+        <item>6 Months</item>
+        <item>1 Year</item>
+        <item>2 Years</item>
+    </string-array>
+
+    <string name="pref_category_notifications">Notifications</string>
+
+    <string name="pref_notification">Notifications</string>
+    <string name="pref_vibration">Vibrate</string>
+    <string name="pref_notif_led">Phone LED</string>
+    <string name="pref_sound">Tone</string>
+
+    <string name="pref_notifications_summery">Switch on or off notifications</string>
+    <string name="pref_sound_summery">Select a tone for notification</string>
+
+    <string name="pref_notify_on">Notify on</string>
+    <string name="pref_notify_on_summery">Control your notifications</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_refresh">Refresh</string>
+
+    <string name="pref_notify_me">Notify me</string>
+    <string name="pref_notify_me_title">Tank level</string>
+    <string name="pref_notify_me_summery">Control app notifications</string>
+    <string-array name="pref_notify_me_entries">
+        <item>Below 80%</item>
+        <item>Below 60%</item>
+        <item>Below 20%</item>
+        <item>Never</item>
+    </string-array>
+
+    <string name="pref_notify_tank_full">Alert when tank is full</string>
+    <string name="pref_notify_tank_full_summery">When tank is full app will alert you</string>
+
+    <string name="pref_notify_tank_empty">Alert when tank is empty</string>
+    <string name="pref_notify_tank_empty_summery">When tank is empty app will alert you</string>
+
+    <string name="pref_notify_on_well_empty">Alert when well reached critical</string>
+    <string name="pref_notify_on_well_empty_summery">When water level is below critical level app will alert.</string>
+
+    <string name="pref_notify_on_cleaning">On cleaning completed</string>
+    <string name="pref_notify_on_cleaning_summery">App will inform you when cleaning process completed</string>
+
+    <string name="pref_auto_fill_tank">Auto fill tank.</string>
+    <string name="pref_auto_fill_tank_summery">Tank will automatically filled when it reaches critical level</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="propmt_retype_password">Retype password</string>
+    <string name="prompt_device_id">Device id</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register_online">Register</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_password_is_not_matching">Password is not matching with previous</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="action_register"><b><u>Not an user? Click here to connect your device now</u></b></string>
+    <string name="text_register">Register your device</string>
+    <string name="text_accept_agreement">I accept all the terms in license agreement</string>
+    <string name="text_terms_of_agreement"><b><u>Terms of agreement</u></b></string>
+    <string name="text_already_a_user"><u><b>Already an user ? Sign In</b></u></string>
+    <string name="error_accept_agreements">Please accept license agreements !.</string>
+</resources>
